@@ -31,18 +31,28 @@
       "color": "#3498db"
     },
     {
-      "id": "682a",
-      "name": "Todo",
-      "color": "#365163"
+      "name": "todo-list",
+      "color": "#365163",
+      "id": "682a"
     },
     {
-      "id": "727a",
       "name": "test",
-      "color": "#8a2424"
+      "color": "#3498db",
+      "id": "c6d8"
     },
     {
-      "id": "c6d8",
-      "name": "test",
+      "name": "Generic H2 (Embedded)",
+      "color": "#3498db",
+      "id": "AONvQJi"
+    },
+    {
+      "name": "hello",
+      "color": "#53ca93",
+      "id": "P4VI09y"
+    },
+    {
+      "id": "1777068146516",
+      "name": "Zakaria Miri",
       "color": "#3498db"
     }
   ],

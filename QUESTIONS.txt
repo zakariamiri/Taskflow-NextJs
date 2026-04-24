@@ -1,3 +1,5 @@
+TP1-------------------------------------------------------------------
+
 Q1 : Différence React vs Next.js
 
 React (Vite) :
@@ -61,3 +63,54 @@ Q15 : Avantage sécurité SSR
 Le navigateur ne voit PAS l’API :4000
 avantages : protège backend, évite attaques directes, cache URL sensible
 
+
+TP2-------------------------------------------------------------------
+
+Q1:
+En React SPA → on devait faire : setProjects([...projects, newProject])
+
+Q4: {
+    "id": "1",
+    "name": "Site E-commerce",
+    "color": "#e74c3c"
+  },
+
+Q5 : 
+API Route : Backend complet , GET, POST, PUT, DELETE
+Server Action : Fonction serveur , Action directe
+
+Q6 :
+2 a 3 Maintenant 0 Grâce à useActionState
+
+Q7 : 
+Oui dans DevTools 
+Impossible avec document.cookie car httpOnly = true
+
+Q9 : 
+Parce que Next.js le détecte globalement 
+
+Q10:
+En React SPA :
+useContext
+useAuth
+state
+
+En Next.js :
+cookies() directement côté serveur
+
+Q11 :
+Formulaire → Server Action
+App mobile → API Routes
+
+Q12 :
+Avantage sécurité :
+
+Cookie HttpOnly
+Pas accessible JS → protège contre XSS
+
+Q13 :
+Oui ça marche sans json-server car Next.js = backend + frontend
+
+Q14 :
+XSS peut voler cookie ?
+NON grâce à httpOnly
