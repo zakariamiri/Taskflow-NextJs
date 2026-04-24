@@ -1,0 +1,63 @@
+Q1 : Différence React vs Next.js
+
+React (Vite) :
+Routing dans le code (App.tsx)
+utilise react-router-dom
+tout côté CLIENT
+
+Next.js :
+Routing = dossiers (app/)
+pages automatiques
+support SERVER (SSR)
+
+Différence principale : Next.js utilise routing automatique par dossiers
+
+Q2 :
+Next.js : 1 seul fichier 
+React : 3 choses ( composant , route dans App.tsx , import )
+
+=> Next.js est plus simple
+
+Q3 : 
+React → côté CLIENT
+Next.js → côté SERVEUR (plus rapide + sécurisé)
+
+Q5 :
+React : useState, useEffect, fetch, setState, loading
+
+Next.js : seulement ( const res = await fetch(...) , const data = await res.json() )
+beaucoup plus simple
+
+Q6 :
+fetch exécuté sur SERVEUR
+navigateur reçoit HTML déjà rempli
+
+=> C’est le SSR
+
+Q7 :
+Parce que Login utilise : useState, onSubmit, interaction utilisateur
+Dashboard = pas interactif → pas besoin
+
+Q8 : équivalent useNavigate ?
+useRouter()
+router.push('/dashboard')
+
+Q11 : Header persistant en React ?
+ On met Header en dehors des routes dans App.tsx
+
+Q12 : Layout spécifique Dashboard ?
+Créer : app/dashboard/layout.tsx
+
+Q13 : Server Component peut utiliser onClick ?
+NON
+Parce que :pas exécuté côté client, pas interactif
+
+Q14 : Bouton "Nouveau projet"
+PAS besoin de transformer toute la page
+
+
+Q15 : Avantage sécurité SSR
+
+Le navigateur ne voit PAS l’API :4000
+avantages : protège backend, évite attaques directes, cache URL sensible
+
